@@ -1,0 +1,25 @@
+@font-face {    
+    font-family: 'Roboto Bold';
+    src: url(../../src/assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {    
+    font-family: 'Roboto';
+    src: url(../../src/assets/fonts/Roboto-Regular.ttf);
+}
+
+.menu_link {
+    text-decoration: none;
+    text-align: left;
+}
+
+.menu_link+p {
+    text-decoration: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.menu_icons {
+    vertical-align: text-bottom !important;
+}
+
